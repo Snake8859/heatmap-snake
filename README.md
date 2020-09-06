@@ -13,8 +13,8 @@
 
 【以2020-07-26 12点为例】
 
-- http://localhost:8865/map/generateHeatData?dateTime=2020-07-26&hour=12【12点数据，普通经纬度格式】
-- http://localhost:8865/map/generateHeatDataGeoJson?dateTime=2020-07-26&hour=12【12点数据，geojson格式】
+- http://localhost:8865/map/generateHeatData?dateTime=2020-07-26&hour=12  （12点数据，普通经纬度格式）
+- http://localhost:8865/map/generateHeatDataGeoJson?dateTime=2020-07-26&hour=12（12点数据，普通经纬度格式）
 
 核心类：HeatMapUtil.java和HeatMapGeoJsonUtil.java
 
@@ -36,4 +36,5 @@
 
 ## 效果
 
-![]()![demo](E:\本科\05计算机设计大赛项目\heatmap-snake\images\demo.jpg)
+![demo](https://raw.githubusercontent.com/Snake8859/heatmap-snake/master/images/demo.jpg)
+
