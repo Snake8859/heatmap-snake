@@ -14,7 +14,7 @@
 【以2020-07-26 12点为例】
 
 - http://localhost:8865/map/generateHeatData?dateTime=2020-07-26&hour=12  （12点数据，普通经纬度格式）
-- http://localhost:8865/map/generateHeatDataGeoJson?dateTime=2020-07-26&hour=12（12点数据，普通经纬度格式）
+- http://localhost:8865/map/generateHeatDataGeoJson?dateTime=2020-07-26&hour=12 （12点数据，普通经纬度格式）
 
 核心类：HeatMapUtil.java和HeatMapGeoJsonUtil.java
 
